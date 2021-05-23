@@ -27,8 +27,6 @@ public class Calculation {
     //A,B,C 입력받아 나머지 비교
     //2 ≤ A, B, C ≤ 10000
     //첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다
-    
-
     System.out.println("2에서 10000사이의 첫번째 숫자를 입력해주세요: ");
     int num1 = in.nextInt();
     System.out.println("2에서 10000사이의 두번째 숫자를 입력해주세요: ");
