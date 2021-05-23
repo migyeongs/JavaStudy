@@ -40,16 +40,13 @@ public class gugudan {
 
 
 
-
-
-
-        // 단 입력받아 출력하기
-        // Scanner in = new Scanner(System.in);
-        // System.out.println("단을 입력하세요: ");
-        // int dan = in.nextInt();
-        // for(int i = 1; i < 10 ; i++){
-        //     System.out.println(dan + "*" +  i  + " = " + (dan*i));
-        // }
+        //단 입력받아 출력하기
+        Scanner in = new Scanner(System.in);
+        System.out.println("단을 입력하세요: ");
+        int dan = in.nextInt();
+        for(int i = 1; i < 10 ; i++){
+            System.out.println(dan + "*" +  i  + " = " + (dan*i));
+        }
 
 
        
